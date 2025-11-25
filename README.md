@@ -50,7 +50,7 @@ The project included implementation of advanced computer vision tasks such as si
 
 The sign detection logic relies on capturing a circle using `HoughCircles` and then dividing the area into zones to compare colors.
 
-<img src="/imgs/KMeans%20sign%20detection%20Flowchart.jpg" alt="Flowchart for sign detection using K-Means" width="400px">
+<img src="/imgs/KMeans%20sign%20detection%20Flowchart.jpg" alt="Flowchart for sign detection using K-Means">
 
 ---
 
