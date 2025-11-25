@@ -27,7 +27,7 @@ The project relies on the **Raspberry Pi** acting as a compact, low-cost compute
 | **Power**           | 10,000 mAh power bank (for Pi) and 7.4V LiPo battery (for motors) |
 | **Control**         | GPIO pins used for motor control (Basic Movement, PWM for speed)  |
 
-![Assembled Raspberry Pi Robot Car](/imgs/car.png)
+<img src="/imgs/car.png" alt="Assembled Raspberry Pi Robot Car" width="400px">
 
 ---
 
@@ -35,7 +35,7 @@ The project relies on the **Raspberry Pi** acting as a compact, low-cost compute
 
 The project included implementation of advanced computer vision tasks such as sign detection, shape counting, face detection, and movement control.
 
-![Img Detection](/imgs/imgDetection.png)
+<img src="/imgs/imgDetection.png" alt="Image Detection Process Example" width="400px">
 
 | File Name                  | Functionality            | Computer Vision Method                                                                                                                                                             |
 | :------------------------- | :----------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -50,7 +50,7 @@ The project included implementation of advanced computer vision tasks such as si
 
 The sign detection logic relies on capturing a circle using `HoughCircles` and then dividing the area into zones to compare colors.
 
-![Flowchart for sign detection using K-Means](euluna/raspberrypismartrobotcar/RaspberryPiSmartRobotCar-5d9c3610ed0cb5c019cf31586dbe085c70b86173/Codes/KMeans sign detection Flowchart.jpg)
+<img src="/imgs/KMeans%20sign%20detection%20Flowchart.jpg" alt="Flowchart for sign detection using K-Means" width="400px">
 
 ---
 
